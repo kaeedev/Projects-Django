@@ -1,0 +1,14 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Iniciar Sesion" %}{% endblock %}
+{% block page_title %}{% trans "Pagina de inicio de sesion" %}{% endblock %}
+{% block page_content %}
+    <h2>{% trans "Iniciar sesion" %}</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">{% trans "Iniciar sesion" %}</button>
+    </form>
+
+{% endblock %}

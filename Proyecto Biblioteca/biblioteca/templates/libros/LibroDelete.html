@@ -1,0 +1,14 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina de libros" %}{% endblock %}
+{% block page_title %}{% trans "Libros" %}{% endblock %}
+{% block page_content %}
+    <h2> {% blocktrans %}Eliminar libro {{ object.titulo }} ? {% endblocktrans %}</h2>
+    <form method='post'>
+        {% csrf_token %}
+        {{ form }}
+        <button>{% trans "Eliminar libro" %}</button>
+        <a href='{% url "libro:detail" object.pk %}'>{% trans "Cancelar" %}</a>
+    </form>
+{% endblock %}

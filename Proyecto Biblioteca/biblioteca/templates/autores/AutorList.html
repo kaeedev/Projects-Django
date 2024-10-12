@@ -1,0 +1,18 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina de Autores" %}{% endblock %}
+{% block page_title %}{% trans "Autores" %}{% endblock %}
+{% block page_content %}
+<h2> {% trans "Lista completa de autores" %} </h2>
+    <ul>
+        <li><a href='{% url "autor:create" %}'>{% trans "Nuevo autor" %}</a></li>
+    </ul>
+    <hr>
+
+    <ul>
+        {% for autor in autor %}
+            <li><a href='{% url "autor:detail" autor.pk %}'> {{ autor.nombre }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

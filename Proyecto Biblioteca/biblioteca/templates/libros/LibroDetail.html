@@ -1,0 +1,17 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina Detalle de Libros" %}{% endblock %}
+{% block page_title %}{% trans "Libros" %}{% endblock %}
+{% block page_content %}
+        <h2> {% blocktrans with titulo=libro.titulo %}
+                Nombre del libro: {{titulo}} {% endblocktrans %} </h2>
+        <p> {% blocktrans with isbn=libro.isbn %} ISBN del libro: {{isbn}} {% endblocktrans %} </p>
+        <p> {% blocktrans with publicacion=libro.fecha_publicacion|date:"Y-m-d"%} Fecha de publicacion: {{publicacion}} {% endblocktrans %}</p>
+        <p> {% blocktrans with paginas=libro.numero_paginas %} Paginas del libro: {{paginas}} {% endblocktrans %} </p>
+        <p><a href='{% url "libro:update" libro.pk %}'>{% trans "Editar libro" %}</a></p>
+        <p><a href='{% url "libro:delete" libro.pk %}'>{% trans "Eliminar libro" %}</a></p>
+        {% url 'libro:list' as libro_url %}
+        <p> {% blocktrans with libro_url=libro_url %} Volver a la <a href='{{ libro_url }}'> lista de libros</a> {% endblocktrans %}</p>
+{% endblock %}
+

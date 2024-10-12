@@ -1,0 +1,24 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina detalle de Autor" %}{% endblock %}
+{% block page_title %}{% trans "Autor" %}{% endblock %}
+{% block page_content %}
+        <h1>{{ autor.nombre }} {{ autor.apellido }}</h1>
+        <p> {% blocktrans with nacimiento=autor.fecha_nacimiento %} Fecha de Nacimiento: {{nacimiento}} {% endblocktrans %}  </p>
+        <p> {% blocktrans with nacionalidad=autor.nacionalidad %} Nacionalidad: {{nacionalidad}} {% endblocktrans %} </p>
+        <p> {% blocktrans with biografia=autor.biografia %} Biografia: {{biografia}} {% endblocktrans %}</p>
+        <p> {% blocktrans with email=autor.email %} Email: {{email}} {% endblocktrans %}</p>
+        <p> {% blocktrans with telefono=autor.telefono %} Telefono: {{telefono}} {% endblocktrans %}</p>
+        <p> {% blocktrans with web=autor.sitio_web %} Sitio Web: {{web}} {% endblocktrans %}</p>
+        <p> {% blocktrans with premios=autor.premios %} Premios: {{premios}} {% endblocktrans %}</p>
+        <p><a href='{% url "autor:update" autor.pk %}'>{% trans "Editar autor" %}</a></p>
+        <p><a href='{% url "autor:delete" autor.pk %}'>{% trans "Eliminar autor" %}</a></p>
+        {% url 'autor:list' as autor_url %}
+        <p> 
+        {% blocktrans with autor_url=autor_url %}
+                Volver a la <a href="{{ autor_url }}">lista de autores</a>
+        {% endblocktrans %}
+        </p>
+{% endblock %}
+

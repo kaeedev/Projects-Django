@@ -1,0 +1,10 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Error de permisos" %}{% endblock %}
+{% block page_title %}{% trans "Error de permisos en Editoriales" %}{% endblock %}
+{% block page_content %}
+<h1> {% trans "No tienes permisos para modificar o borrar esta editorial"  %}</h1>
+{% url 'editorial:list' as editorial_url %}
+<p> {% blocktrans with editorial_url=editorial_url %} Volver a la <a href="{{ editorial_url }}"> lista de editoriales</a> {% endblocktrans %}</p>
+{% endblock %}

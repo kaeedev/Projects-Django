@@ -1,0 +1,17 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina de Libros" %}{% endblock %}
+{% block page_title %}{% trans "Libros" %}{% endblock %}
+{% block page_content %}
+    <h2>{% trans "Lista completa de Libros" %} </h2>
+    <ul>
+        <li><a href='{% url "libro:create" %}'>{% trans "Nuevo Libro" %} </a></li>
+    </ul>
+    <hr>
+    <ul>
+    {% for libro in libro %}
+        <li><a href='{% url "libro:detail" libro.pk %}'>{{ libro.titulo }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

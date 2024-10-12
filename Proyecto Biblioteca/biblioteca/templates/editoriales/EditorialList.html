@@ -1,0 +1,18 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina Detalle de Editoriales" %}{% endblock %}
+{% block page_title %}{% trans "Editoriales" %}{% endblock %}
+{% block page_content %}
+<h2> {% trans "Lista completa de editoriales" %} </h2>
+    <ul>
+        <li><a href='{% url "editorial:create" %}'>{% trans "Nueva editorial" %}</a></li>
+    </ul>
+    <hr>
+
+    <ul>
+        {% for editorial in editorial %}
+            <li><a href='{% url "editorial:detail" editorial.pk %}'> {{ editorial.nombre }}</a></li>
+        {% endfor %}
+    </ul>
+{% endblock %}

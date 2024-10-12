@@ -1,0 +1,17 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina Detalle de Editoriales" %}{% endblock %}
+{% block page_title %}{% trans "Editorial" %}{% endblock %}
+{% block page_content %}
+        <h1>{{ titulo }}</h1>
+        <h2> {% blocktrans  with nombre=editorial.nombre %} Nombre: {{nombre}} {% endblocktrans %} </h2>
+        <p> {% blocktrans  with direccion=editorial.direccion %} Direccion: {{direccion}} {% endblocktrans %} </p>
+        <p> {% blocktrans  with email=editorial.email %} Email: {{email}} {% endblocktrans %}</p>
+        <p> {% blocktrans  with fundacion=editorial.fecha_fundacion %} Fecha de fundacion: {{fundacion}} {% endblocktrans %}</p>
+        <p><a href='{% url "editorial:update" editorial.pk %}'>{% trans "Editar editorial" %}</a></p>
+        <p><a href='{% url "editorial:delete" editorial.pk %}'>{% trans "Eliminar editorial" %}</a></p>
+        {% url 'editorial:list' as editorial_url %}
+        <p> {% blocktrans with editorial_url=editorial_url %} Volver a la <a href="{{ editorial_url }}"> lista de editoriales</a> {% endblocktrans %}</p>
+{% endblock %}
+

@@ -1,0 +1,15 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina de contacto" %}{% endblock %}
+{% block page_title %}{% trans "Contacta con nosotros" %}{% endblock %}
+{% block page_content %}
+<div>
+    <form action='' method='POST'>
+        {% csrf_token %}
+        <h2>{% trans "Contactanos con el siguiente formulario" %}</h2>
+        {{ form.as_p }}
+        <button>{% trans "Enviar" %}</button>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,57 @@
+{% extends "general/layout.html" %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Pagina de busqueda" %}{% endblock %}
+{% block page_title %}{% trans "Busqueda" %}{% endblock %}
+
+{% block page_content %}
+  <p>{% trans "Este es el contenido de la pagina busqueda" %}</p>
+  <div>
+    <form action="" method="get">
+      <h2>{% trans "Busca autores, editoriales y libros" %}</h2>
+      <div>
+        <label for="">{% trans "Introduce cualquiera cadena de texto" %}</label>
+        <input type="text" name="q" required value="{% if request.GET %}{{ request.GET.q }}{% endif %}">
+        <button>{% trans "Buscar" %}</button>
+      </div>
+    </form>
+  </div> 
+
+  {% if request.GET %}
+    <div>
+      <h3>{% blocktrans %}Resultados para la búsqueda con {{ request.GET.q }} {% endblocktrans %}</h3>
+      <h4>{% trans "Autores" %}</h4>
+      {% if autores %}
+        <ul>
+          {% for autor in autores %}
+            <li>{{ autor }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+      <p>{% trans "No hay autores para esta busqueda" %}</p>
+      {% endif %}
+      
+      <h4>{% trans "Editoriales" %}</h4>
+      {% if editoriales %}
+        <ul>
+          {% for editorial in editoriales %}
+            <li>{{ editorial }}</li>
+          {% endfor %}
+        </ul>
+      {% else %}
+      <p>{% trans "No hay editoriales para esta busqueda" %}</p>
+      {% endif %}
+
+      <h4>{% trans "Libros" %}</h4>
+      {% if libros %}
+      <ul>
+        {% for libro in libros %}
+          <li>{{ libro }}</li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>{% trans "No hay libros para esta busqueda" %}</p>
+      {% endif %}
+    </div>
+  {% endif %}
+{% endblock %}

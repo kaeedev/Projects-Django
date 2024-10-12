@@ -1,0 +1,10 @@
+{% extends 'general/layout.html' %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Error de permisos" %}{% endblock %}
+{% block page_title %}{% trans "Error de permisos en libros" %}{% endblock %}
+{% block page_content %}
+<h1> {% trans "No tienes permisos para modificar o borrar este libro" %}</h1>
+{% url 'libro:list' as libro_url %}
+<p> {% blocktrans with libro_url=libro_url %} Volver a la <a href='{{ libro_url }}'> lista de libros</a> {% endblocktrans %}</p>
+{% endblock %}
