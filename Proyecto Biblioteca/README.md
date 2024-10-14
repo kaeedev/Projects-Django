@@ -91,7 +91,7 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    python3 -m venv venv
    
    ```
- o
+   o
    ```bash
    python -m venv venv
    ```
