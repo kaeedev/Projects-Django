@@ -111,6 +111,10 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    python manage.py runserver
    ```
 
+6. Usar el admin de django si lo deseas:
+   ```bash
+   Añadir /admin al final del enlace del servidor local
+
 ## 📝 Licencia
 
 Este proyecto está disponible únicamente para uso **docente** y con fines de aprendizaje.
