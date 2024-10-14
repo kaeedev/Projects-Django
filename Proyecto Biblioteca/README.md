@@ -9,7 +9,7 @@ Esta es una página web sencilla sin estilos con varias vistas y funcionalidades
 El objetivo de este proyecto es crear una página web con funcionalidades y con una base de datos donde guardar los datos creados y los usuarios creados. Primer acercamiento al Backend
 
 ## 👁️ Vista previa del proyecto
-<img src="images/Captura%20de%20pantalla%202024-10-12%20143052.png" width=900>
+<img src="images/Captura%20de%20pantalla%202024-10-12%20143052.png" width=1200>
 
 ## 🛠️ Estructura del Proyecto
 
