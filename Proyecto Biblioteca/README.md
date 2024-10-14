@@ -8,6 +8,9 @@ Esta es una página web sencilla sin estilos con varias vistas y funcionalidades
 
 El objetivo de este proyecto es crear una página web con funcionalidades y con una base de datos donde guardar los datos creados y los usuarios creados. Primer acercamiento al Backend
 
+## 👁️ Vista previa del proyecto
+![Vista previa del proyecto](images/'Captura de pantalla 2024-10-12 143052'.png)
+
 ## 🛠️ Estructura del Proyecto
 
 El proyecto está organizado en varias carpetas y archivos para facilitar su mantenimiento y expansión:
@@ -87,7 +90,7 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    ```
  o
    ```bash
-   python3 -m venv venv
+   python -m venv venv
    ```
 
 3. Instala las dependencias necesarias:
