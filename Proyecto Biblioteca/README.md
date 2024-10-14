@@ -10,6 +10,9 @@ El objetivo de este proyecto es crear una página web con funcionalidades y con 
 
 ## 👁️ Vista previa del proyecto
 <img src="images/Captura%20de%20pantalla%202024-10-12%20143052.png" width=1200>
+<img src="images/Captura%20de%20pantalla%202024-10-12%20143106.png" width=1200>
+<img src="images/Captura%20de%20pantalla%202024-10-12%20143125.png" width=1200>
+<img src="images/Captura%20de%20pantalla%202024-10-12%20143204.png" width=1200>
 
 ## 🛠️ Estructura del Proyecto
 
