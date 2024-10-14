@@ -90,7 +90,7 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    python3 -m venv venv
    ```
 
-3.  Instala las dependencias necesarias:
+3. Instala las dependencias necesarias:
    ```bash
    pip install -r requirements.txt
    ```
@@ -99,6 +99,7 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    Deberás runear un servidor local
    ```bash
    python manage.py runserver
+   ```
 
 ## 📝 Licencia
 
