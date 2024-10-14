@@ -96,12 +96,16 @@ Una carpeta **locale** que es utilizada para la internacionalización del proyec
    python -m venv venv
    ```
 
-3. Instala las dependencias necesarias:
+3. Inicia el entorno virtual que has creado:
+   ```bash
+   source venv/bin/activate
+
+4. Instala las dependencias necesarias:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Ejecuta el programa:
+5. Ejecuta el programa:
    Deberás runear un servidor local
    ```bash
    python manage.py runserver
