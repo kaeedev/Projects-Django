@@ -1,0 +1,25 @@
+{% extends "layout_base.html" %}
+{% load i18n %}
+
+{% block head_title %}{% trans "Cursos" %}{% endblock %}
+{% block page_content %}
+  <h1>{% trans "Listado de los cursos disponibles" %}</h1>
+  
+  {% for course in courses %}
+    <article id="{{ course.pk }}">
+      <h2>{{ course.title }}</h2>
+      {% if course.course_image %}
+        <picture>
+          <img src="{{ course.course_image.thumbnails.small.url }}" alt="">
+        </picture>
+      {% endif %}
+      <p>{% trans "Fecha de creación:" %} {{ course.created_at }}</p>
+      <div>
+        {{ course.content|truncatechars:100|safe }}...
+      </div>
+      <p><a href="{% url 'courses:course_detail' course.pk %}">{% trans "Ver curso completo" %}</a></p>
+    </article>
+<br>
+<br>
+  {% endfor %}
+{% endblock %}

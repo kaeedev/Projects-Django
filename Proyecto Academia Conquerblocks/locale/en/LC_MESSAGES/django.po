@@ -1,0 +1,1794 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-15 12:24+0200\n"
+"PO-Revision-Date: 2024-10-15 10:39+0000\n"
+"Last-Translator:   <lalbertohab@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.1\n"
+
+#: blog/models.py:10
+msgid "Título"
+msgstr "Title"
+
+#: blog/models.py:14
+msgid "contenido"
+msgstr "Content"
+
+#: blog/models.py:17
+msgid "Autor"
+msgstr "Author"
+
+#: blog/models.py:21
+msgid "Fecha de creación"
+msgstr "Creation date"
+
+#: blog/models.py:26 courses/models.py:24
+msgid "Mostrar en la home"
+msgstr "Show on the homepage"
+
+#: blog/models.py:34
+msgid "Publicacion"
+msgstr "Post"
+
+#: blog/models.py:35
+msgid "Publicaciones"
+msgstr "Posts"
+
+#: conquerblocks/templates/_includes/_footer.html:4
+msgid ""
+" Derechos de autor © [2024] [ConquerBlocks]. Todos los derechos reservados. \n"
+"    Queda prohibida la reproducción total o parcial de los contenidos de este sitio web, incluyendo textos, imágenes, diseños y cualquier otro material, sin la autorización expresa por escrito del propietario del sitio. \n"
+"    Todos los logotipos, marcas registradas y nombres comerciales que aparecen en este sitio son propiedad de sus respectivos dueños. \n"
+"    Se prohíbe cualquier uso no autorizado de los mismos. "
+msgstr ""
+"Copyright © [2024] [ConquerBlocks]. All rights reserved.\n"
+"Total or partial reproduction of the contents of this website, including texts, images, designs, and any other material, is prohibited without the express written authorization of the site owner.\n"
+"All logos, registered trademarks, and trade names appearing on this site are the property of their respective owners.\n"
+"Any unauthorized use of the same is prohibited."
+
+#: conquerblocks/templates/_includes/_footer.html:7
+msgid "Avisos legales"
+msgstr "Legal notices"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:3
+msgid "Home"
+msgstr "Home"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:4
+msgid "Sobre Nosotros"
+msgstr "About Us"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:5
+#: conquerblocks/templates/courses/course_list.html:4 courses/models.py:46
+msgid "Cursos"
+msgstr "Courses"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:6
+msgid "Blog"
+msgstr "Blog"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:7
+msgid "Registro"
+msgstr "Register"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:8
+#: conquerblocks/templates/core/contact.html:7 core/models.py:29
+msgid "Contacto"
+msgstr "Contact"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:10
+msgid "Cerrar sesion"
+msgstr "Logout"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:18
+msgid "Login"
+msgstr "Login"
+
+#: conquerblocks/templates/_includes/_menu_principal.html:31
+msgid "Cambiar"
+msgstr "Change"
+
+#: conquerblocks/templates/blog/blog_detail.html:17
+msgid "Volver a las noticias"
+msgstr "Return to news"
+
+#: conquerblocks/templates/blog/blog_list.html:4
+msgid "Listado de blogs"
+msgstr "Blog List"
+
+#: conquerblocks/templates/blog/blog_list.html:7
+msgid "Descubre las ultimas noticias de desarrollo web"
+msgstr "Discover the latest web development news"
+
+#: conquerblocks/templates/blog/blog_list.html:19
+#: conquerblocks/templates/core/home.html:41
+msgid "Ver noticia completa"
+msgstr "View full article"
+
+#: conquerblocks/templates/core/about_us.html:5
+msgid "Sobre nosotros"
+msgstr "About Us"
+
+#: conquerblocks/templates/core/about_us.html:9
+msgid "¿Quienes somos?"
+msgstr "Who are we?"
+
+#: conquerblocks/templates/core/about_us.html:11
+msgid ""
+" Somos la primera escuela no-oficial que propone una alternativa educativa real a la universidad y educación tradicional. Descubre quienes somos, nuestros\n"
+"        cursos y nuestras noticias "
+msgstr ""
+"We are the first unofficial school that offers a real educational "
+"alternative to university and traditional education. Discover who we are, "
+"our courses, and our news."
+
+#: conquerblocks/templates/core/about_us.html:15
+msgid ""
+" El Máster en Desarrollo Full Stack que te garantiza un empleo por "
+"contrato... "
+msgstr ""
+"The Full Stack Development Master's program that guarantees you a job by "
+"contract..."
+
+#: conquerblocks/templates/core/about_us.html:18
+msgid ""
+" La formación donde aprenderás todo lo que necesitas para convertirte en "
+"Desarrollador Full-Stack, aunque partas desde cero en el mundo de la "
+"programación. "
+msgstr ""
+"The training where you will learn everything you need to become a Full-Stack"
+" Developer, even if you start from scratch in the world of programming."
+
+#: conquerblocks/templates/core/about_us.html:25
+msgid " Algunos de nuestros profesores en el Master de Desarrollo Full-Stack "
+msgstr ""
+"Some of our instructors in the Full-Stack Development Master's program"
+
+#: conquerblocks/templates/core/about_us.html:27
+msgid ""
+" Nuestros profesores han trabajado con... (Click en las imagenes si deseas "
+"ir a los sitios web) "
+msgstr ""
+"Our instructors have worked with... (Click on the images if you want to "
+"visit the websites)"
+
+#: conquerblocks/templates/core/about_us.html:42
+msgid ""
+" Fórmate con profesionales de la élite del desarrollo con amplia experiencia"
+" en el mercado laboral "
+msgstr ""
+"Train with elite professionals in development who have extensive experience "
+"in the job market."
+
+#: conquerblocks/templates/core/about_us.html:49
+msgid ""
+" Doctor en Ciberseguridad por la Universidad de Murcia, especialista en "
+"programación para principiantes "
+msgstr ""
+"PhD in Cybersecurity from the University of Murcia, specialist in "
+"programming for beginners."
+
+#: conquerblocks/templates/core/about_us.html:56
+msgid ""
+" Doctora en Astrofísica Computacional por la universidad de Múnich, mentora "
+"de Python e Inteligencia Artificial "
+msgstr ""
+"PhD in Computational Astrophysics from the University of Munich, mentor in "
+"Python and Artificial Intelligence."
+
+#: conquerblocks/templates/core/about_us.html:63
+msgid ""
+" Más de 15 años de experiencia como educador de programación, especializado "
+"en Desarrollo Web Full-Stack "
+msgstr ""
+"Over 15 years of experience as a programming educator, specializing in Full-"
+"Stack Web Development."
+
+#: conquerblocks/templates/core/about_us.html:70
+msgid ""
+" Experta en Solidity y especialista en Desarrollo de Aplicaciones basadas en"
+" tecnología Blockchain "
+msgstr ""
+"Expert in Solidity and specialist in developing applications based on "
+"Blockchain technology."
+
+#: conquerblocks/templates/core/avisoslegales.html:4
+msgid "Avisos Legales"
+msgstr "Legal Notices"
+
+#: conquerblocks/templates/core/avisoslegales.html:8
+msgid "TERMINOS Y CONDICIONES"
+msgstr "Terms and Conditions"
+
+#: conquerblocks/templates/core/avisoslegales.html:10
+msgid " Esta página fue actualizada por última vez el 20 de Enero de 2024. "
+msgstr "This page was last updated on January 20, 2024."
+
+#: conquerblocks/templates/core/avisoslegales.html:14
+msgid "Aviso"
+msgstr "Notice"
+
+#: conquerblocks/templates/core/avisoslegales.html:16
+msgid ""
+" ConquerX son academias y su objetivo es enseñar. No es una asesoría de inversiones ni recomienda, promueve o incita a la inversión. Tampoco gestiona carteras de inversión. No hace publicidad de ningún activo. \n"
+"            La mención de cualquier activo en las clases es simplemente a título formativo. \n"
+"            Por el contrario, advertimos a nuestros alumnos de que cualquier inversión conlleva riesgo y que el riesgo debe ser asumido y gestionado de forma personal por el propio inversor, por lo que es importante formarse e informarse antes de invertir.\n"
+"            "
+msgstr ""
+"ConquerX are academies, and their goal is to teach. It is not an investment "
+"advisory service, nor does it recommend, promote, or encourage investment. "
+"It does not manage investment portfolios and does not advertise any assets. "
+"The mention of any asset in classes is solely for educational purposes. On "
+"the contrary, we warn our students that any investment carries risks and "
+"that the risk must be personally assumed and managed by the investor. "
+"Therefore, it is important to educate and inform oneself before investing."
+
+#: conquerblocks/templates/core/avisoslegales.html:23
+msgid "Cancelacion de las formaciones"
+msgstr "Cancellation of training"
+
+#: conquerblocks/templates/core/avisoslegales.html:25
+msgid ""
+" Para los cursos financiados, si el alumno deja de pagar una cuota, se le bloquea el acceso a la academia hasta haber sido regularizada la deuda. \n"
+"            Si no paga la segunda cuota, se considera que el alumno ha desistido de recibir la formación pactada, procediéndose a dar de bajan en la academia, sin derecho a devolución alguna.\n"
+"            "
+msgstr ""
+"For financed courses, if the student fails to pay a fee, access to the "
+"academy will be blocked until the debt is settled. If the second fee is not "
+"paid, it is considered that the student has withdrawn from receiving the "
+"agreed training, and they will be removed from the academy without any right"
+" to a refund."
+
+#: conquerblocks/templates/core/avisoslegales.html:31
+msgid "Politica de privacidad"
+msgstr "Privacy Policy"
+
+#: conquerblocks/templates/core/avisoslegales.html:33
+msgid ""
+" Actualizado por última vez el 20 de Enero de 2023.<br>\n"
+"\n"
+"            Información en cumplimiento de la normativa de protección de datos personales a nivel internacional.\n"
+"\n"
+"            En prácticamente la totalidad de los Países existen normas de protección de datos pensadas para proteger su información personal.\n"
+"\n"
+"            Por ello, es muy importante para nosotros que entienda perfectamente qué vamos a hacer con los datos personales que le pedimos. Así, seremos transparentes y le daremos el control de sus datos, con un lenguaje sencillo y opciones claras que le permitirán decidir qué haremos con su información personal.\n"
+"\n"
+"            Por favor, si una vez leída la presente información le queda alguna duda, no dude en preguntarnos. Muchas gracias por su colaboración. "
+msgstr ""
+"Last updated on January 20, 2023.\n"
+"\n"
+"Information in compliance with international personal data protection regulations.\n"
+"\n"
+"In almost all countries, there are data protection laws designed to safeguard your personal information.\n"
+"\n"
+"Therefore, it is very important for us that you fully understand what we will do with the personal data we request. We aim to be transparent and give you control over your data, using simple language and clear options that will allow you to decide what we do with your personal information.\n"
+"\n"
+"Please, if you have any questions after reading this information, do not hesitate to ask us. Thank you very much for your cooperation."
+
+#: conquerblocks/templates/core/avisoslegales.html:46
+msgid "Politica de cookies"
+msgstr "Cookie Policy"
+
+#: conquerblocks/templates/core/avisoslegales.html:48
+msgid ""
+" Una cookie o galleta informática es un pequeño archivo de información que se guarda en tu ordenador, “smartphone” o tableta cada vez que visitas nuestra página web.\n"
+"            En principio, una cookie es inofensiva: no contiene virus, troyanos, gusanos, etc. que puedan dañar tu terminal, pero sí tiene cierto impacto sobre tu derecho a la protección de tus datos personales, pues recoge determinada información concerniente a tu persona (hábitos de navegación, identidad, preferencias, etc.).\n"
+"            Es por ello que, en base a lo establecido en la normativa aplicable (LSSI y normativa vigente de protección de datos personales), la activación de determinados tipos de cookies necesitará de tu autorización previa.\n"
+"            Antes de ello, te daremos alguna información adicional que te ayudará a una mejor toma de decisiones al respecto: Las cookies pueden ser de varios tipos en función de su finalidad:\n"
+"            Las cookies técnicas son necesarias para que nuestra página web pueda funcionar, no necesitan de tu autorización y son las únicas que tenemos activadas por defecto.\n"
+"            El resto de cookies sirven para mejorar nuestra página, para personalizarla en base a tus preferencias, o para poder mostrarte publicidad ajustada a tus búsquedas, gustos e intereses personales. Puedes aceptar todas estas cookies pulsando el botón ACEPTAR o configurarlas o rechazar su uso clicando en el apartado CONFIGURACIÓN DE COOKIES.\n"
+"            Algunas cookies son nuestras (las denominaremos cookies propias) y otras pertenecen a empresas externas que prestan servicios para nuestra página web (las denominaremos cookies de terceros: un ejemplo podrían ser las cookies de proveedores externos como Google). En este sentido, es importante que sepas que algunos de dichos proveedores externos pueden estar ubicados fuera de España.\n"
+"            A nivel mundial, no todos los países tienen un mismo nivel de protección de datos, existiendo algunos países más seguros que otros (por ejemplo, la Unión Europea es un entorno seguro para tus datos). Nuestra política es recurrir a proveedores confiables que, con independencia de que se encuentren o no ubicados en la Unión Europea, hayan adoptado las garantías adecuadas para la protección de tu información personal.\n"
+"            Finalmente, indicarte que, en función del plazo de tiempo que permanecen activas, las cookies pueden ser de dos tipos:\n"
+"            Cookies de sesión: expiran automáticamente cuando terminas la sesión en tu ordenador, “smartphone” o tableta. Suelen emplearse para conservar la información necesaria mientras se te presta un servicio en una sola ocasión.\n"
+"            Cookies persistentes: permanecen almacenadas en tu ordenador, “smartphone” o tableta durante un periodo determinado, que puede variar desde unos minutos hasta varios años. "
+msgstr ""
+"A cookie is a small piece of information stored on your computer, smartphone, or tablet each time you visit our website.\n"
+"Initially, a cookie is harmless: it does not contain viruses, trojans, worms, etc., that could harm your device, but it does have an impact on your right to protect your personal data, as it collects certain information about you (browsing habits, identity, preferences, etc.).\n"
+"Therefore, based on the applicable regulations (LSSI and current personal data protection regulations), activating certain types of cookies will require your prior consent.\n"
+"Before that, we will provide some additional information to help you make better decisions regarding this: Cookies can be of various types depending on their purpose:\n"
+"Technical cookies are necessary for our website to function; they do not require your consent and are the only ones we have activated by default.\n"
+"The other cookies serve to improve our site, to personalize it based on your preferences, or to show you advertisements tailored to your searches, tastes, and personal interests. You can accept all these cookies by clicking the ACCEPT button or configure them or refuse their use by clicking on the COOKIE SETTINGS section.\n"
+"Some cookies are ours (we will call them first-party cookies), while others belong to external companies that provide services for our website (we will call them third-party cookies: an example could be cookies from external providers like Google). In this regard, it is important to know that some of these external providers may be located outside of Spain.\n"
+"Worldwide, not all countries have the same level of data protection, with some countries being safer than others (for example, the European Union is a secure environment for your data). Our policy is to use reliable providers that, regardless of whether they are located in the European Union or not, have adopted adequate safeguards for the protection of your personal information.\n"
+"Finally, please note that depending on how long they remain active, cookies can be of two types:\n"
+"Session cookies: expire automatically when you end your session on your computer, smartphone, or tablet. They are typically used to retain the necessary information while a service is being provided to you at one time.\n"
+"Persistent cookies: remain stored on your computer, smartphone, or tablet for a specific period, which can vary from a few minutes to several years."
+
+#: conquerblocks/templates/core/contact.html:4
+msgid "Pagina de Contacto"
+msgstr "Contact Page"
+
+#: conquerblocks/templates/core/contact.html:9
+msgid " Se ha enviado el formulario correctamente "
+msgstr "The form has been submitted successfully."
+
+#: conquerblocks/templates/core/contact.html:13
+msgid "Contactanos con el siguiente formulario "
+msgstr "Contact us using the following form."
+
+#: conquerblocks/templates/core/contact.html:15
+#: conquerblocks/templates/core/login.html:15
+#: conquerblocks/templates/core/register.html:15
+msgid "Enviar"
+msgstr "Search"
+
+#: conquerblocks/templates/core/home.html:4
+msgid "Página Home"
+msgstr "Home Page"
+
+#: conquerblocks/templates/core/home.html:7
+msgid ""
+"La escuela líder en habla hispana que revoluciona la educación en tecnología"
+msgstr ""
+"The leading Spanish-speaking school that is revolutionizing education in "
+"technology."
+
+#: conquerblocks/templates/core/home.html:8
+msgid ""
+"Da un giro a tu futuro profesional guiado por los mayores referentes del "
+"sector"
+msgstr ""
+"Turn your professional future around, guided by the leading figures in the "
+"industry."
+
+#: conquerblocks/templates/core/home.html:12
+msgid "Descubre ConquerBlocks"
+msgstr "Discover ConquerBlocks"
+
+#: conquerblocks/templates/core/home.html:13
+msgid ""
+"La escuela número 1 en desarrollo de tecnologías emergentes. Conquer Blocks "
+"tiene un Máster pensado para ti"
+msgstr ""
+"The number 1 school in emerging technology development. Conquer Blocks has a"
+" Master's program designed for you."
+
+#: conquerblocks/templates/core/home.html:14
+msgid "Conoce ConquerBlocks"
+msgstr "Get to know ConquerBlocks"
+
+#: conquerblocks/templates/core/home.html:18
+msgid "Nuestros cursos destacados"
+msgstr "Our Featured Courses"
+
+#: conquerblocks/templates/core/home.html:26
+#: conquerblocks/templates/courses/course_list.html:20
+msgid "Ver curso completo"
+msgstr "View Full Course"
+
+#: conquerblocks/templates/core/home.html:33
+msgid "Últimas noticias destacadas"
+msgstr "Latest Featured News"
+
+#: conquerblocks/templates/core/home.html:37
+#: conquerblocks/templates/courses/course_detail.html:15
+msgid "Fecha de publicación:"
+msgstr "Publication Date:"
+
+#: conquerblocks/templates/core/login.html:4
+msgid "Iniciar sesión"
+msgstr "Login"
+
+#: conquerblocks/templates/core/login.html:7
+msgid "Pagina de Login"
+msgstr "Login Page"
+
+#: conquerblocks/templates/core/register.html:4
+msgid "Pagina de Register"
+msgstr "Sign up Page"
+
+#: conquerblocks/templates/core/register.html:7
+msgid "Registrate"
+msgstr "Sign Up"
+
+#: conquerblocks/templates/courses/course_detail.html:14
+msgid "Título del curso:"
+msgstr "Course Title:"
+
+#: conquerblocks/templates/courses/course_detail.html:20
+msgid "Descarga el temario"
+msgstr "Download the syllabus"
+
+#: conquerblocks/templates/courses/course_detail.html:22
+msgid "Agenda tu llamada"
+msgstr "Schedule your call"
+
+#: conquerblocks/templates/courses/course_detail.html:23
+msgid "Volver al listado de cursos"
+msgstr "Return to the course list"
+
+#: conquerblocks/templates/courses/course_list.html:6
+msgid "Listado de los cursos disponibles"
+msgstr "List of Available Courses"
+
+#: conquerblocks/templates/courses/course_list.html:16
+msgid "Fecha de creación:"
+msgstr "Creation Date:"
+
+#: core/forms.py:7 core/forms.py:25 core/models.py:7
+msgid "Nombre"
+msgstr "Name"
+
+#: core/forms.py:9
+msgid "Comentario"
+msgstr "Comment"
+
+#: core/forms.py:14
+msgid "El nombre debe tener al menos 5 caracteres"
+msgstr "The name must be at least 5 characters long."
+
+#: core/forms.py:19 core/forms.py:24
+msgid "Nombre de usuario"
+msgstr "Username"
+
+#: core/forms.py:20 core/forms.py:29
+msgid "Contraseña"
+msgstr "Password"
+
+#: core/forms.py:26
+msgid "Apellidos"
+msgstr "Lastname"
+
+#: core/forms.py:27 core/models.py:11
+msgid "Email"
+msgstr "Mail"
+
+#: core/forms.py:30
+msgid "Repita su contraseña"
+msgstr "Repeat your password"
+
+#: core/forms.py:38
+msgid "Las contraseñas no coinciden"
+msgstr "The passwords do not match."
+
+#: core/models.py:14
+msgid "Comentario que ha dejado en la web"
+msgstr "Comment left on the website"
+
+#: core/models.py:17
+msgid "Fecha de creacion"
+msgstr "Creation Date"
+
+#: core/models.py:21
+msgid "¿Se ha contactado con él?"
+msgstr "Has he been contacted?"
+
+#: core/models.py:30
+msgid "Contactos"
+msgstr "Contacts"
+
+#: core/views.py:38
+msgid "Usuario no valido"
+msgstr "Invalid user"
+
+#: core/views.py:76
+msgid "Usuario creado correctamente"
+msgstr "User created successfully."
+
+#: core/views.py:162
+msgid "Formulario de contacto de mi Web"
+msgstr "Contact Form for My Website"
+
+#: courses/models.py:10
+msgid "Título del curso"
+msgstr "Course Title"
+
+#: courses/models.py:14
+msgid "Contenido del curso"
+msgstr "Course Content"
+
+#: courses/models.py:17
+msgid "Enlace de llamada"
+msgstr "Call Link"
+
+#: courses/models.py:20
+msgid "Fecha y hora de creación"
+msgstr "Date and Time of Creation"
+
+#: courses/models.py:28
+msgid "Temario"
+msgstr "Syllabus"
+
+#: courses/models.py:34
+msgid "Portada del curso"
+msgstr "Course Cover"
+
+#: courses/models.py:45
+msgid "Curso"
+msgstr "Course"
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/forms.py:6
+msgid "Search files"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:5
+msgid "Select an image to embed"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:27
+msgid "Browse for the image you want, then click 'Embed Image' to continue..."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:29
+msgid ""
+"No images found. Upload images using the 'Image Button' dialog's 'Upload' "
+"tab."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:50
+msgid "Images in: "
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:62
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:80
+msgid "Embed Image"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:146
+msgid "Play Slideshow"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:147
+msgid "Pause Slideshow"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:148
+msgid "&lsaquo; Previous Photo"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:149
+msgid "Next Photo &rsaquo;"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:150
+msgid "Next &rsaquo;"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/ckeditor_uploader/templates/ckeditor/browse.html:151
+msgid "&lsaquo; Prev"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/contrib/messages/apps.py:16
+msgid "Messages"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/contrib/sitemaps/apps.py:8
+msgid "Site Maps"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/contrib/staticfiles/apps.py:9
+msgid "Static Files"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/contrib/syndication/apps.py:7
+msgid "Syndication"
+msgstr ""
+
+#. Translators: String used to replace omitted page numbers in elided page
+#. range generated by paginators, e.g. [1, 2, '…', 5, 6, 7, '…', 9, 10].
+#: env/lib/python3.12/site-packages/django/core/paginator.py:30
+msgid "…"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/paginator.py:32
+msgid "That page number is not an integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/paginator.py:33
+msgid "That page number is less than 1"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/paginator.py:34
+msgid "That page contains no results"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:22
+msgid "Enter a valid value."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:70
+msgid "Enter a valid domain name."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:152
+#: env/lib/python3.12/site-packages/django/forms/fields.py:768
+msgid "Enter a valid URL."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:213
+msgid "Enter a valid integer."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:224
+msgid "Enter a valid email address."
+msgstr ""
+
+#. Translators: "letters" means latin letters: a-z and A-Z.
+#: env/lib/python3.12/site-packages/django/core/validators.py:307
+msgid ""
+"Enter a valid “slug” consisting of letters, numbers, underscores or hyphens."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:315
+msgid ""
+"Enter a valid “slug” consisting of Unicode letters, numbers, underscores, or"
+" hyphens."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:327
+#: env/lib/python3.12/site-packages/django/core/validators.py:336
+#: env/lib/python3.12/site-packages/django/core/validators.py:350
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2215
+#, python-format
+msgid "Enter a valid %(protocol)s address."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:329
+msgid "IPv4"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:338
+#: env/lib/python3.12/site-packages/django/utils/ipv6.py:30
+msgid "IPv6"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:352
+msgid "IPv4 or IPv6"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:393
+msgid "Enter only digits separated by commas."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:399
+#, python-format
+msgid "Ensure this value is %(limit_value)s (it is %(show_value)s)."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:434
+#, python-format
+msgid "Ensure this value is less than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:443
+#, python-format
+msgid "Ensure this value is greater than or equal to %(limit_value)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:452
+#, python-format
+msgid "Ensure this value is a multiple of step size %(limit_value)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:459
+#, python-format
+msgid ""
+"Ensure this value is a multiple of step size %(limit_value)s, starting from "
+"%(offset)s, e.g. %(offset)s, %(valid_value1)s, %(valid_value2)s, and so on."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:491
+#, python-format
+msgid ""
+"Ensure this value has at least %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at least %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:509
+#, python-format
+msgid ""
+"Ensure this value has at most %(limit_value)d character (it has "
+"%(show_value)d)."
+msgid_plural ""
+"Ensure this value has at most %(limit_value)d characters (it has "
+"%(show_value)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:532
+#: env/lib/python3.12/site-packages/django/forms/fields.py:359
+#: env/lib/python3.12/site-packages/django/forms/fields.py:398
+msgid "Enter a number."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:534
+#, python-format
+msgid "Ensure that there are no more than %(max)s digit in total."
+msgid_plural "Ensure that there are no more than %(max)s digits in total."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:539
+#, python-format
+msgid "Ensure that there are no more than %(max)s decimal place."
+msgid_plural "Ensure that there are no more than %(max)s decimal places."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:544
+#, python-format
+msgid ""
+"Ensure that there are no more than %(max)s digit before the decimal point."
+msgid_plural ""
+"Ensure that there are no more than %(max)s digits before the decimal point."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:615
+#, python-format
+msgid ""
+"File extension “%(extension)s” is not allowed. Allowed extensions are: "
+"%(allowed_extensions)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/core/validators.py:677
+msgid "Null characters are not allowed."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/base.py:1571
+#: env/lib/python3.12/site-packages/django/forms/models.py:908
+msgid "and"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/base.py:1573
+#, python-format
+msgid "%(model_name)s with this %(field_labels)s already exists."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/constraints.py:22
+#, python-format
+msgid "Constraint “%(name)s” is violated."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:134
+#, python-format
+msgid "Value %(value)r is not a valid choice."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:135
+msgid "This field cannot be null."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:136
+msgid "This field cannot be blank."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:137
+#, python-format
+msgid "%(model_name)s with this %(field_label)s already exists."
+msgstr ""
+
+#. Translators: The 'lookup_type' is one of 'date', 'year' or
+#. 'month'. Eg: "Title must be unique for pub_date year"
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:141
+#, python-format
+msgid ""
+"%(field_label)s must be unique for %(date_field_label)s %(lookup_type)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:180
+#, python-format
+msgid "Field of type: %(field_type)s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1156
+#, python-format
+msgid "“%(value)s” value must be either True or False."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1157
+#, python-format
+msgid "“%(value)s” value must be either True, False, or None."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1159
+msgid "Boolean (Either True or False)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1209
+#, python-format
+msgid "String (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1211
+msgid "String (unlimited)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1320
+msgid "Comma-separated integers"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1421
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid date format. It must be in YYYY-MM-DD "
+"format."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1425
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1560
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD) but it is an invalid "
+"date."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1429
+msgid "Date (without time)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1556
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1564
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ]) but it is an invalid date/time."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1569
+msgid "Date (with time)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1696
+#, python-format
+msgid "“%(value)s” value must be a decimal number."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1698
+msgid "Decimal number"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1859
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1863
+msgid "Duration"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1915
+msgid "Email address"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:1940
+msgid "File path"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2018
+#, python-format
+msgid "“%(value)s” value must be a float."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2020
+msgid "Floating point number"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2060
+#, python-format
+msgid "“%(value)s” value must be an integer."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2062
+msgid "Integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2158
+msgid "Big (8 byte) integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2175
+msgid "Small integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2183
+msgid "IPv4 address"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2214
+msgid "IP address"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2305
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2306
+#, python-format
+msgid "“%(value)s” value must be either None, True or False."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2308
+msgid "Boolean (Either True, False or None)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2359
+msgid "Positive big integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2374
+msgid "Positive integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2389
+msgid "Positive small integer"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2405
+#, python-format
+msgid "Slug (up to %(max_length)s)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2441
+msgid "Text"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2521
+#, python-format
+msgid ""
+"“%(value)s” value has an invalid format. It must be in HH:MM[:ss[.uuuuuu]] "
+"format."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2525
+#, python-format
+msgid ""
+"“%(value)s” value has the correct format (HH:MM[:ss[.uuuuuu]]) but it is an "
+"invalid time."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2529
+msgid "Time"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2637
+msgid "URL"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2661
+msgid "Raw binary data"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2726
+#, python-format
+msgid "“%(value)s” is not a valid UUID."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/__init__.py:2728
+msgid "Universally unique identifier"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/files.py:244
+msgid "File"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/files.py:420
+msgid "Image"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/json.py:24
+msgid "A JSON object"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/json.py:26
+msgid "Value must be valid JSON."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:932
+#, python-format
+msgid "%(model)s instance with %(field)s %(value)r does not exist."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:934
+msgid "Foreign Key (type determined by related field)"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:1228
+msgid "One-to-one relationship"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:1285
+#, python-format
+msgid "%(from)s-%(to)s relationship"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:1287
+#, python-format
+msgid "%(from)s-%(to)s relationships"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/db/models/fields/related.py:1335
+msgid "Many-to-many relationship"
+msgstr ""
+
+#. Translators: If found as last label character, these punctuation
+#. characters will prevent the default label_suffix to be appended to the
+#. label
+#: env/lib/python3.12/site-packages/django/forms/boundfield.py:185
+msgid ":?.!"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:95
+msgid "This field is required."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:308
+msgid "Enter a whole number."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:479
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1260
+msgid "Enter a valid date."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:502
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1261
+msgid "Enter a valid time."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:529
+msgid "Enter a valid date/time."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:563
+msgid "Enter a valid duration."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:564
+#, python-brace-format
+msgid "The number of days must be between {min_days} and {max_days}."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:633
+msgid "No file was submitted. Check the encoding type on the form."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:634
+msgid "No file was submitted."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:635
+msgid "The submitted file is empty."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:637
+#, python-format
+msgid ""
+"Ensure this filename has at most %(max)d character (it has %(length)d)."
+msgid_plural ""
+"Ensure this filename has at most %(max)d characters (it has %(length)d)."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:642
+msgid "Please either submit a file or check the clear checkbox, not both."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:710
+msgid ""
+"Upload a valid image. The file you uploaded was either not an image or a "
+"corrupted image."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:882
+#: env/lib/python3.12/site-packages/django/forms/fields.py:968
+#: env/lib/python3.12/site-packages/django/forms/models.py:1592
+#, python-format
+msgid "Select a valid choice. %(value)s is not one of the available choices."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:970
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1089
+#: env/lib/python3.12/site-packages/django/forms/models.py:1590
+msgid "Enter a list of values."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1090
+msgid "Enter a complete value."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1329
+msgid "Enter a valid UUID."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/fields.py:1359
+msgid "Enter a valid JSON."
+msgstr ""
+
+#. Translators: This is the default suffix added to form field labels
+#: env/lib/python3.12/site-packages/django/forms/forms.py:94
+msgid ":"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/forms.py:230
+#, python-format
+msgid "(Hidden field %(name)s) %(error)s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:61
+#, python-format
+msgid ""
+"ManagementForm data is missing or has been tampered with. Missing fields: "
+"%(field_names)s. You may need to file a bug report if the issue persists."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:65
+#, python-format
+msgid "Please submit at most %(num)d form."
+msgid_plural "Please submit at most %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:70
+#, python-format
+msgid "Please submit at least %(num)d form."
+msgid_plural "Please submit at least %(num)d forms."
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:484
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:491
+msgid "Order"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/formsets.py:499
+msgid "Delete"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:901
+#, python-format
+msgid "Please correct the duplicate data for %(field)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:906
+#, python-format
+msgid "Please correct the duplicate data for %(field)s, which must be unique."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:913
+#, python-format
+msgid ""
+"Please correct the duplicate data for %(field_name)s which must be unique "
+"for the %(lookup)s in %(date_field)s."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:922
+msgid "Please correct the duplicate values below."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:1359
+msgid "The inline value did not match the parent instance."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:1450
+msgid ""
+"Select a valid choice. That choice is not one of the available choices."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/models.py:1594
+#, python-format
+msgid "“%(pk)s” is not a valid value."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/utils.py:227
+#, python-format
+msgid ""
+"%(datetime)s couldn’t be interpreted in time zone %(current_timezone)s; it "
+"may be ambiguous or it may not exist."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:461
+msgid "Clear"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:462
+msgid "Currently"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:463
+msgid "Change"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:800
+msgid "Unknown"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:801
+msgid "Yes"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/forms/widgets.py:802
+msgid "No"
+msgstr ""
+
+#. Translators: Please do not add spaces around commas.
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:873
+msgid "yes,no,maybe"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:903
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:920
+#, python-format
+msgid "%(size)d byte"
+msgid_plural "%(size)d bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:922
+#, python-format
+msgid "%s KB"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:924
+#, python-format
+msgid "%s MB"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:926
+#, python-format
+msgid "%s GB"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:928
+#, python-format
+msgid "%s TB"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/template/defaultfilters.py:930
+#, python-format
+msgid "%s PB"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:74
+msgid "p.m."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:75
+msgid "a.m."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:80
+msgid "PM"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:81
+msgid "AM"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:153
+msgid "midnight"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dateformat.py:155
+msgid "noon"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:7
+msgid "Monday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:8
+msgid "Tuesday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:9
+msgid "Wednesday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:10
+msgid "Thursday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:11
+msgid "Friday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:12
+msgid "Saturday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:13
+msgid "Sunday"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:16
+msgid "Mon"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:17
+msgid "Tue"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:18
+msgid "Wed"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:19
+msgid "Thu"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:20
+msgid "Fri"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:21
+msgid "Sat"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:22
+msgid "Sun"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:25
+msgid "January"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:26
+msgid "February"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:27
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:28
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:29
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:30
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:31
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:32
+msgid "August"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:33
+msgid "September"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:34
+msgid "October"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:35
+msgid "November"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:36
+msgid "December"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:39
+msgid "jan"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:40
+msgid "feb"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:41
+msgid "mar"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:42
+msgid "apr"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:43
+msgid "may"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:44
+msgid "jun"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:45
+msgid "jul"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:46
+msgid "aug"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:47
+msgid "sep"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:48
+msgid "oct"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:49
+msgid "nov"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:50
+msgid "dec"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:53
+msgctxt "abbrev. month"
+msgid "Jan."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:54
+msgctxt "abbrev. month"
+msgid "Feb."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:55
+msgctxt "abbrev. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:56
+msgctxt "abbrev. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:57
+msgctxt "abbrev. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:58
+msgctxt "abbrev. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:59
+msgctxt "abbrev. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:60
+msgctxt "abbrev. month"
+msgid "Aug."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:61
+msgctxt "abbrev. month"
+msgid "Sept."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:62
+msgctxt "abbrev. month"
+msgid "Oct."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:63
+msgctxt "abbrev. month"
+msgid "Nov."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:64
+msgctxt "abbrev. month"
+msgid "Dec."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:67
+msgctxt "alt. month"
+msgid "January"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:68
+msgctxt "alt. month"
+msgid "February"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:69
+msgctxt "alt. month"
+msgid "March"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:70
+msgctxt "alt. month"
+msgid "April"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:71
+msgctxt "alt. month"
+msgid "May"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:72
+msgctxt "alt. month"
+msgid "June"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:73
+msgctxt "alt. month"
+msgid "July"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:74
+msgctxt "alt. month"
+msgid "August"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:75
+msgctxt "alt. month"
+msgid "September"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:76
+msgctxt "alt. month"
+msgid "October"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:77
+msgctxt "alt. month"
+msgid "November"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/dates.py:78
+msgctxt "alt. month"
+msgid "December"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/ipv6.py:8
+msgid "This is not a valid IPv6 address."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/text.py:75
+#, python-format
+msgctxt "String to return when truncating text"
+msgid "%(truncated_text)s…"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/text.py:286
+msgid "or"
+msgstr ""
+
+#. Translators: This string is used as a separator between list elements
+#: env/lib/python3.12/site-packages/django/utils/text.py:305
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:135
+msgid ", "
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:8
+#, python-format
+msgid "%(num)d year"
+msgid_plural "%(num)d years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:9
+#, python-format
+msgid "%(num)d month"
+msgid_plural "%(num)d months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:10
+#, python-format
+msgid "%(num)d week"
+msgid_plural "%(num)d weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:11
+#, python-format
+msgid "%(num)d day"
+msgid_plural "%(num)d days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:12
+#, python-format
+msgid "%(num)d hour"
+msgid_plural "%(num)d hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/utils/timesince.py:13
+#, python-format
+msgid "%(num)d minute"
+msgid_plural "%(num)d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:29
+msgid "Forbidden"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:30
+msgid "CSRF verification failed. Request aborted."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:34
+msgid ""
+"You are seeing this message because this HTTPS site requires a “Referer "
+"header” to be sent by your web browser, but none was sent. This header is "
+"required for security reasons, to ensure that your browser is not being "
+"hijacked by third parties."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:40
+msgid ""
+"If you have configured your browser to disable “Referer” headers, please re-"
+"enable them, at least for this site, or for HTTPS connections, or for “same-"
+"origin” requests."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:45
+msgid ""
+"If you are using the <meta name=\"referrer\" content=\"no-referrer\"> tag or"
+" including the “Referrer-Policy: no-referrer” header, please remove them. "
+"The CSRF protection requires the “Referer” header to do strict referer "
+"checking. If you’re concerned about privacy, use alternatives like <a "
+"rel=\"noreferrer\" …> for links to third-party sites."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:54
+msgid ""
+"You are seeing this message because this site requires a CSRF cookie when "
+"submitting forms. This cookie is required for security reasons, to ensure "
+"that your browser is not being hijacked by third parties."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:60
+msgid ""
+"If you have configured your browser to disable cookies, please re-enable "
+"them, at least for this site, or for “same-origin” requests."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/csrf.py:66
+msgid "More information is available with DEBUG=True."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:44
+msgid "No year specified"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:64
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:115
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:214
+msgid "Date out of range"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:94
+msgid "No month specified"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:147
+msgid "No day specified"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:194
+msgid "No week specified"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:349
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:380
+#, python-format
+msgid "No %(verbose_name_plural)s available"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:652
+#, python-format
+msgid ""
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/dates.py:692
+#, python-format
+msgid "Invalid date string “%(datestr)s” given format “%(format)s”"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/detail.py:56
+#, python-format
+msgid "No %(verbose_name)s found matching the query"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/list.py:70
+msgid "Page is not “last”, nor can it be converted to an int."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/list.py:77
+#, python-format
+msgid "Invalid page (%(page_number)s): %(message)s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/generic/list.py:169
+#, python-format
+msgid "Empty list and “%(class_name)s.allow_empty” is False."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/static.py:49
+msgid "Directory indexes are not allowed here."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/static.py:51
+#, python-format
+msgid "“%(path)s” does not exist"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/static.py:68
+#: env/lib/python3.12/site-packages/django/views/templates/directory_index.html:8
+#: env/lib/python3.12/site-packages/django/views/templates/directory_index.html:11
+#, python-format
+msgid "Index of %(directory)s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:7
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:204
+msgid "The install worked successfully! Congratulations!"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:206
+#, python-format
+msgid ""
+"View <a href=\"https://docs.djangoproject.com/en/%(version)s/releases/\" "
+"target=\"_blank\" rel=\"noopener\">release notes</a> for Django %(version)s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:208
+#, python-format
+msgid ""
+"You are seeing this page because <a "
+"href=\"https://docs.djangoproject.com/en/%(version)s/ref/settings/#debug\" "
+"target=\"_blank\" rel=\"noopener\">DEBUG=True</a> is in your settings file "
+"and you have not configured any URLs."
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:217
+msgid "Django Documentation"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:218
+msgid "Topics, references, &amp; how-to’s"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:226
+msgid "Tutorial: A Polling App"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:227
+msgid "Get started with Django"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:235
+msgid "Django Community"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/django/views/templates/default_urlconf.html:236
+msgid "Connect, get help, or contribute"
+msgstr ""
+
+#: env/lib/python3.12/site-packages/shortuuid/django_fields.py:12
+msgid "A short UUID field."
+msgstr ""

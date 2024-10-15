@@ -1,0 +1,74 @@
+{% extends "layout_base.html" %}
+{% load static %}
+{% load i18n %}
+
+{% block head_title%}{% trans "Sobre nosotros" %} {% endblock %}
+
+{% block page_content%}
+<section>
+    <h1>{% trans "¿Quienes somos?" %}</h1>
+    <p>
+        {% blocktrans %} Somos la primera escuela no-oficial que propone una alternativa educativa real a la universidad y educación tradicional. Descubre quienes somos, nuestros
+        cursos y nuestras noticias {% endblocktrans %}
+    </p>
+    <p>
+        <strong> {% blocktrans %} El Máster en Desarrollo Full Stack que te garantiza un empleo por contrato... {% endblocktrans %}</strong>
+    </p>
+    <p>
+        {% blocktrans %} La formación donde aprenderás todo lo que necesitas para convertirte en Desarrollador Full-Stack, aunque partas desde cero en el mundo de la programación. {% endblocktrans %}
+    </p>
+</section>
+<br>
+<br>
+<br>
+<section>
+    <h2> {% blocktrans %} Algunos de nuestros profesores en el Master de Desarrollo Full-Stack {% endblocktrans %} </h2>
+    <p>
+        {% blocktrans %} Nuestros profesores han trabajado con... (Click en las imagenes si deseas ir a los sitios web) {% endblocktrans %}
+    </p>
+    <a href="https://es.nttdata.com" target="_blank">
+        <img src="{% static 'img/nttdata.png' %}" alt="Logo de NTTDATA"></a>
+    <a href="https://www.ibm.com/es-es?utm_content=SRCWW&p1=Search&p4=43700070739409119&p5=e&p9=58700007789520001&gad_source=1&gclid=CjwKCAjw9IayBhBJEiwAVuc3fn_0IO39QY33vEZYyLRZP35NMvu4XwqD9wEPuVW7zfgPkqp5hnr_0hoCmUwQAvD_BwE&gclsrc=aw.ds" 
+    target="_blank">
+    <img src="{% static 'img/ibm.png' %}" alt="Logo de IBM"></a>
+    <a href="https://about.meta.com/es/" target="_blank">
+        <img src="{% static 'img/meta.png' %}" alt="Logo de META"></a>
+    <a href="https://chain.link" target="_blank">
+        <img src="{% static 'img/chainlink.png' %}" alt="Logo de CHAINLINK"></a>
+    <a href="https://www.ey.com/es_es" target="_blank">
+        <img src="{% static 'img/ey.png' %}" alt="Logo de EY"></a>
+
+    <p>
+        {% blocktrans %} Fórmate con profesionales de la élite del desarrollo con amplia experiencia en el mercado laboral {% endblocktrans %}
+    </p>
+
+    <article>
+        <img src="{% static 'img/salvadorperez.png' %}" alt="Profesor Salvador Perez">
+        <h3>Salvador Pérez</h3>
+        <p>
+            {% blocktrans %} Doctor en Ciberseguridad por la Universidad de Murcia, especialista en programación para principiantes {% endblocktrans %}
+        </p>
+    </article>
+    <article>
+        <img src="{% static 'img/elenahernandez.png' %}" alt="Profesora Elena Hernandez">
+        <h3>Elena Hernández</h3>
+        <p>
+            {% blocktrans %} Doctora en Astrofísica Computacional por la universidad de Múnich, mentora de Python e Inteligencia Artificial {% endblocktrans %}
+        </p>
+    </article>
+    <article>
+        <img src="{% static 'img/bienvenidosaez.png' %}" alt="Profesor Bienvenido Saez">
+        <h3>Bienvenido Sáez</h3>
+        <p>
+            {% blocktrans %} Más de 15 años de experiencia como educador de programación, especializado en Desarrollo Web Full-Stack {% endblocktrans %}
+        </p>
+    </article>
+    <article>
+        <img src="{% static 'img/yolandalopez.png' %}" alt="Profesora Yolanda Lopez">
+        <h3>Yolanda Lopez</h3>
+        <p>
+            {% blocktrans %} Experta en Solidity y especialista en Desarrollo de Aplicaciones basadas en tecnología Blockchain {% endblocktrans %}
+        </p>
+    </article>
+</section>
+{% endblock %}

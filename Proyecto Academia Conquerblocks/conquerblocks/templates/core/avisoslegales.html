@@ -1,0 +1,61 @@
+{% extends "layout_base.html" %}
+{% load i18n %}
+
+{% block head_title%} {% trans "Avisos Legales" %} {% endblock %}
+
+{% block page_content%}
+    <section>
+        <h1> {% trans "TERMINOS Y CONDICIONES" %} </h1>
+        <p>
+            {% blocktrans %} Esta página fue actualizada por última vez el 20 de Enero de 2024. {% endblocktrans %}
+        </p>
+    </section>
+    <section>
+        <h2>{% trans "Aviso" %} </h2>
+        <p>
+            {% blocktrans %} ConquerX son academias y su objetivo es enseñar. No es una asesoría de inversiones ni recomienda, promueve o incita a la inversión. Tampoco gestiona carteras de inversión. No hace publicidad de ningún activo. 
+            La mención de cualquier activo en las clases es simplemente a título formativo. 
+            Por el contrario, advertimos a nuestros alumnos de que cualquier inversión conlleva riesgo y que el riesgo debe ser asumido y gestionado de forma personal por el propio inversor, por lo que es importante formarse e informarse antes de invertir.
+            {% endblocktrans %}
+        </p>
+    </section>
+    <section>
+        <h2>{% trans "Cancelacion de las formaciones" %}</h2>
+        <p>
+            {% blocktrans %} Para los cursos financiados, si el alumno deja de pagar una cuota, se le bloquea el acceso a la academia hasta haber sido regularizada la deuda. 
+            Si no paga la segunda cuota, se considera que el alumno ha desistido de recibir la formación pactada, procediéndose a dar de bajan en la academia, sin derecho a devolución alguna.
+            {% endblocktrans %}
+        </p>
+    </section>
+    <section>
+        <h2>{% trans "Politica de privacidad" %}</h2>
+        <p>
+            {% blocktrans %} Actualizado por última vez el 20 de Enero de 2023.<br>
+
+            Información en cumplimiento de la normativa de protección de datos personales a nivel internacional.
+
+            En prácticamente la totalidad de los Países existen normas de protección de datos pensadas para proteger su información personal.
+
+            Por ello, es muy importante para nosotros que entienda perfectamente qué vamos a hacer con los datos personales que le pedimos. Así, seremos transparentes y le daremos el control de sus datos, con un lenguaje sencillo y opciones claras que le permitirán decidir qué haremos con su información personal.
+
+            Por favor, si una vez leída la presente información le queda alguna duda, no dude en preguntarnos. Muchas gracias por su colaboración. {% endblocktrans %}
+
+        </p>
+    </section>
+    <section>
+        <h2>{% trans "Politica de cookies" %}</h2>
+        <p>
+            {% blocktrans %} Una cookie o galleta informática es un pequeño archivo de información que se guarda en tu ordenador, “smartphone” o tableta cada vez que visitas nuestra página web.
+            En principio, una cookie es inofensiva: no contiene virus, troyanos, gusanos, etc. que puedan dañar tu terminal, pero sí tiene cierto impacto sobre tu derecho a la protección de tus datos personales, pues recoge determinada información concerniente a tu persona (hábitos de navegación, identidad, preferencias, etc.).
+            Es por ello que, en base a lo establecido en la normativa aplicable (LSSI y normativa vigente de protección de datos personales), la activación de determinados tipos de cookies necesitará de tu autorización previa.
+            Antes de ello, te daremos alguna información adicional que te ayudará a una mejor toma de decisiones al respecto: Las cookies pueden ser de varios tipos en función de su finalidad:
+            Las cookies técnicas son necesarias para que nuestra página web pueda funcionar, no necesitan de tu autorización y son las únicas que tenemos activadas por defecto.
+            El resto de cookies sirven para mejorar nuestra página, para personalizarla en base a tus preferencias, o para poder mostrarte publicidad ajustada a tus búsquedas, gustos e intereses personales. Puedes aceptar todas estas cookies pulsando el botón ACEPTAR o configurarlas o rechazar su uso clicando en el apartado CONFIGURACIÓN DE COOKIES.
+            Algunas cookies son nuestras (las denominaremos cookies propias) y otras pertenecen a empresas externas que prestan servicios para nuestra página web (las denominaremos cookies de terceros: un ejemplo podrían ser las cookies de proveedores externos como Google). En este sentido, es importante que sepas que algunos de dichos proveedores externos pueden estar ubicados fuera de España.
+            A nivel mundial, no todos los países tienen un mismo nivel de protección de datos, existiendo algunos países más seguros que otros (por ejemplo, la Unión Europea es un entorno seguro para tus datos). Nuestra política es recurrir a proveedores confiables que, con independencia de que se encuentren o no ubicados en la Unión Europea, hayan adoptado las garantías adecuadas para la protección de tu información personal.
+            Finalmente, indicarte que, en función del plazo de tiempo que permanecen activas, las cookies pueden ser de dos tipos:
+            Cookies de sesión: expiran automáticamente cuando terminas la sesión en tu ordenador, “smartphone” o tableta. Suelen emplearse para conservar la información necesaria mientras se te presta un servicio en una sola ocasión.
+            Cookies persistentes: permanecen almacenadas en tu ordenador, “smartphone” o tableta durante un periodo determinado, que puede variar desde unos minutos hasta varios años. {% endblocktrans %}
+        </p>
+    </section>
+{% endblock %}
