@@ -1,7 +1,7 @@
 
 ## ESP:
 
-# Proyecto de Pagina Web de la academia Conquerblocks (Internacionalizado) 📚
+# Proyecto de Pagina Web de la academia Conquerblocks (Internacionalizado) 🧑‍🏫👩‍🏫
 
 Esta es una página web sencilla sin estilos con varias vistas y funcionalidades como logearse, ver cursos si estas logieado (vistas protegidas), ver noticias destacas desde la Home Page.... Todo realizado con **HTML** y **Django**. La página web cuenta con una versión en español y otra en inglés. Podemos cambiar la versión con tan solo darle a un botón gracias a Django Rosetta. El proyecto también cuenta con vistas protegidas.
 
@@ -127,117 +127,117 @@ Este proyecto está disponible únicamente para uso **docente** y con fines de a
 Si tienes alguna duda o quieres utilizar algún recurso de este proyecto, por favor contacta conmigo.
 
 ---
-## EN:
+## ENG:
 
-# Library Website Project (Internationalized) 📚
+# Conquerblocks Academy Website Project (Internationalized) 🧑‍🏫👩‍🏫
 
-This is a simple, unstyled website with several views and functionalities such as logging in, registering, adding books, authors, or publishers, editing them, deleting them, and a search bar. Everything is done using HTML and Django. The website has both a Spanish and English version. We can switch between versions with just a click, thanks to Django Rosetta. The project also includes protected views.
+This is a simple, unstyled website with various views and functionalities such as logging in, viewing courses if logged in (protected views), and checking featured news from the Home Page... All built with HTML and Django. The website has both Spanish and English versions, which can be switched easily with a button thanks to Django Rosetta. The project also includes protected views.
 
 ## 🎯 Project Objective
 
-The objective of this project is to create a website with functionalities and a database to store created data and users. This is a first approach to backend development.
+The goal of this project is to create a website with functionalities and the ability to create various news articles and courses from the admin. It serves as an initial approach to the Backend.
 
 ## 👁️ Project Preview
-
-<img src="images/Captura%20de%20pantalla%202024-10-12%20143052.png" width=1200> <img src="images/Captura%20de%20pantalla%202024-10-12%20143106.png" width=1200> <img src="images/Captura%20de%20pantalla%202024-10-12%20143125.png" width=1200> <img src="images/Captura%20de%20pantalla%202024-10-12%20143204.png" width=1200>
+<img src="images/captura1.png" width=1200> <img src="images/captura2.png" width=1200> <img src="images/captura3.png" width=1200> <img src="images/captura4.png" width=1200> <img src="images/captura5.png" width=1200>
 
 ## 🛠️ Project Structure
 
-The project is organized into several folders and files for easy maintenance and expansion:
+The project is organized into several folders and files for easier maintenance and expansion:
 
-A biblioteca folder corresponds to the main "app":
+A blog folder for the news app:
 
-- A templates folder, which contains all the project's HTML files with corresponding views for authors, publishers, books, general views, and error pages.
-- admin.py: File where we register and customize our models for the Django admin.
-- context_processor.py: File where we define context processors.
-- settings.py: File that contains all the project settings to make it functional.
-- models.py: File where we create our main models.
-- urls.py: File where we define and connect our main URLs.
-- views.py: File where we create the project's main views.
+- admin.py: File where we register and customize our models to appear in the Django admin.
+- models.py: File where we create our post model.
+- urls.py: File where we define and connect our post URLs.
+- views.py: File where we create our post views.
+- translation.py: File where we translate our model so that in the admin, there’s a field in Spanish and another in English for translation.
+- 
+A conquerblocks folder for the main app:
 
-A books folder corresponds to a "sub-app" within the library:
+- A static folder that contains the main images for the project.
+- A templates folder where all the HTML templates for our project are created.
+- urls.py: File where we define our main URLs.
+- settings: File where we put all the project configurations, such as INSTALLED_APPS, MIDDLEWARES...
+  
+A core folder for a subapp with core models, which are the main models and views of the project.
 
-- A forms folder, where independent forms are created as needed.
-- A models folder, where author, publisher, and book models are created.
-- A urls folder, where the URLs for author, publisher, and book are defined.
-- A views folder, where we create views for authors, publishers, and books.
-- admin.py: File where we register our models so they can be used in the admin.
-- custom_middleware.py: File where we create custom middleware.
-- decorators.py: File where we create custom decorators.
-- An images folder contains some project screenshots for visual reference.
+- admin.py: File where we register and customize our models to appear in the Django admin.
+- models.py: File where we create our contact model.
+- urls.py: File where we define and connect our home, login, register, logout, contact, about_us, and legal notice URLs.
+- views.py: File where we create our home, login, register, logout, contact, about_us, and legal notice views.
+- forms.py: File where we create our contact, login, and register forms.
+  
+A courses folder for the courses app:
 
-A locale folder is used for the project's internationalization. This project only includes translations from Spanish to English.
+- admin.py: File where we register and customize our models to appear in the Django admin.
+- models.py: File where we create our course model.
+- urls.py: File where we define and connect our course URLs.
+- views.py: File where we create our course views.
+- translation.py: File where we translate our model for the admin with fields in both Spanish and English for translation.
+  
+A images folder with project screenshots to show a preview in this README.
 
-create_data.py: An old file used to create models automatically. It was only used for testing purposes. 
-manage.py: File that handles Django's functionalities and management. 
-requirements.txt: File that lists the necessary dependencies for the project to work properly. These should be installed in a new virtual environment.
+A locale folder responsible for internationalizing the project through translations done with Django Rosetta.
+
+A media folder to select PDF files for download in course views and to upload covers for courses and blogs.
+
+A static folder with several installed Django tools such as Django Debug Toolbar and CKEditor to enhance the basic Django textarea.
+
+manage.py: A file that encompasses Django functionalities and management.
+
+requirements.txt: A file listing the requirements needed for the project to function properly. These must be installed in a new virtual environment.
 
 ## 🚀 Features and Usage
 
-- Register: The page has a form to register users, who will be saved in the database. It’s important to register to use all project features since there are protected views and functions.
+- Registration: The page has a user registration form that will be saved in the database. It's essential to register to fully utilize the site since a user is required to view the Courses page.
 
-- Login: You can log in with your user account.
+- Login: You can log in with your previously registered user.
 
-- Add authors/books/publishers: If you're logged in, you can create new authors, books, or publishers with any information you want. The project already includes some example authors, books, and publishers.
+- Contact Option: The project includes a contact form connected to my email, allowing you to contact me this way as well.
 
-- Edit/Delete authors/books/publishers: If you're logged in, you can also edit and delete existing authors, books, or publishers. Note: models are protected and can only be edited or deleted if you are the CREATOR of the models. If you're not the creator, you'll be redirected to a page informing you that you don't have permission to perform these actions.
+- Internationalization: The project features English translation. You can switch using the dropdown. All views and models, along with their information, are translated.
 
-- Contact form: The project includes a contact form connected to my email, allowing you to get in touch with me this way.
+- Protected Views: Users who are not logged in will not be able to access the courses.
 
-- Search bar: The project includes a search bar to find authors, books, and publishers.
+- Admin Usage: If you register, you can use the Django admin with that user by appending /admin to the local server link to create new courses and news with CKEditor.
 
-- Internationalization: The project has an English translation. You can use the dropdown menu to switch the language. All project views and models, as well as their information, are translated.
+- Form Errors: The forms include supportive messages for when users input incorrect data. There are also required fields that must be filled.
 
-- Protected views: Users who are not logged in won't be able to perform functions such as creating, editing, or deleting data. If they try, they'll be redirected to the login page.
+## 🛠️ Installation and Execution
 
-- Admin usage: If you register, you can use Django's admin interface by adding /admin to the URL.
-
-- Context processors: There are messages in the project to provide context to the user, such as informational or success messages.
-
-. Form errors: The forms include support messages for when the user inputs incorrect data. There are also required fields that must be filled in.
-
-- Counter: A counter shows the total number of books, authors, and publishers registered on the site. When you add a new model, the count increases, and when you delete one, it decreases.
-
-## 🛠️ Installation and Running
-
-1. Clone this repository:
-   ```bash
-   https://github.com/kaeedev/Projects-Django.git
-
-2. Create a virtual environment to install the necessary dependencies:
-   ```bash
-   python3 -m venv venv
-   
-   ```
-   or
-   ```bash
-   python -m venv venv
-   ```
-
-3. Activate the virtual environment:
-   ```bash
-   source venv/bin/activate
-
-4. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. Run the project: You'll need to run a local server:
-   Deberás runear un servidor local
-   ```bash
-   python manage.py runserver
-   ```
-
-6. Use the django admin if you wish:
-   ```bash
-   Add /admin to the end of the local server URL
-   
+- Clone this repository:
+  ```bash
+  https://github.com/kaeedev/Projects-Django.git
+  
+- Create a virtual environment in the project to install the necessary dependencies:
+  ```bash
+  python3 -m venv venv
+  ```
+  or  
+  ```bash
+  python -m venv venv
+  
+- Activate the virtual environment:
+  ```bash
+  source venv/bin/activate
+  
+- Install the necessary dependencies:
+  ```bash
+  pip install -r requirements.txt
+  
+- Run the program: You need to start a local server:
+  ```bash
+  python manage.py runserver
+  
+- Use the Django admin if you wish:
+  ```bash
+  Add /admin at the end of your local server link.
+  
 ## 📝 License
 
-This project is available for educational and learning purposes only.
+This project is available solely for educational use and for learning purposes.
 
 ### Conditions:
 
-The source code of this project can be used, modified, and distributed for educational purposes only.
-If you have any questions or want to use any resource from this project, feel free to contact me.
+The source code of this project can be used, modified, and distributed only for educational purposes.
+If you have any questions or wish to use any resources from this project, please contact me.
