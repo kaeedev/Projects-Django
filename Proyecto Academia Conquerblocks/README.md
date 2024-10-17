@@ -10,72 +10,76 @@ Esta es una página web sencilla sin estilos con varias vistas y funcionalidades
 El objetivo de este proyecto es crear una página web con funcionalidades y desde el admin crear las diversas noticias y cursos que queramos. Primeros acercamientos al Backend
 
 ## 👁️ Vista previa del proyecto
+
 <img src="images/captura1.png" width=1200>
+<img src="images/captura2.png" width=1200>
+<img src="images/captura3.png" width=1200>
+<img src="images/captura4.png" width=1200>
+<img src="images/captura5.png" width=1200>
 
 
 ## 🛠️ Estructura del Proyecto
 
 El proyecto está organizado en varias carpetas y archivos para facilitar su mantenimiento y expansión:
 
-Una carpeta **biblioteca** que corresponderá a la "app" principal:
-- Una carpeta **templates** donde recoge todos los HTMLs del proyecto con sus vistas correspondientes para autores, editoriales, libros, vistas generales y     para errores.
+Una carpeta **blog** que corresponderá a la app de las noticias:
 - **admin.py**: Fichero donde registramos y personalizamos nuestros modelos para que aparezcan en el admin de Django.
-- **context_processor.py**: Fichero donde definimos procesadores de contexto.
-- **settings.py**: Fichero que recoge todos los ajustes del proyecto para poder funcionar.
-- **models.py**: Fichero donde creamos nuestros modelos principales.
-- **urls.py**: Fichero donde definimos y conectamos nuestras urls principales.
-- **views.py**: Fichero donde creamos nuestras vistas principales del proyecto.
+- **models.py**: Fichero donde creamos nuestro modelo de post.
+- **urls.py**: Fichero donde definimos y conectamos nuestras urls de post.
+- **views.py**: Fichero donde creamos nuestras vistas de post.
+- **translation.py**: Fichero donde traducimos nuestro modelo para que en el admin aparezca un campo en español y otro en ingles para que sea traducible.
 
-Una carpeta **books** que corresponderá a una "subapp" de biblioteca:
-- Una carpeta **forms** donde se crean los formularios independientes para lo que se necesite.
-- Una carpeta **models** donde se crean los modelos de autor, editorial y libro.
-- Una carpeta **urls** donde se definen las urls de autor, editorial y libro.
-- Una carpeta **views** donde creamos las vistas de autor, editorial y libro.
-- **admin.py**: Fichero donde registramos nuestros modelos para que puedan ser utilizados en el admin.
-- **custom_middleware.py**: Fichero donde creamos middlewares personalizados.
-- **decorators.py**: Fichero donde creamos decoradores personalizados.
+Una carpeta **conquerblocks** que corresponderá a la app principal:
+- Una carpeta **static** que contendrá las imagenes principales para el proyecto
+- Una carpeta **templates** donde se crearan todas las plantillas HTMLs de nuestro proyecto
+- **urls.py**: Fichero donde definimos nuestras URLs principales.
+- **settings**: Fichero donde pondremos todas las configuraciones del proyecto, como INSTALLED_APPS, MIDDLEWARES...
 
-Una carpeta **images** que contiene algunas capturas del proyecto para su visualización
+Una carpeta **core** que corresponderá a una subapp con modelos core, que sería como los modelos y vistas principales del proyecto.
+- **admin.py**: Fichero donde registramos y personalizamos nuestros modelos para que aparezcan en el admin de Django.
+- **models.py**: Fichero donde creamos nuestro modelo de contact.
+- **urls.py**: Fichero donde definimos y conectamos nuestras urls de home, login, register, logout, contact, about_us, avisoslegales.
+- **views.py**: Fichero donde creamos nuestras vistas de home, login, register, logout, contact, about_us y avisoslegales.
+- **forms.py**: Fichero donde creamos nuestros formularios de contacto, login y register
 
-Una carpeta **locale** que es utilizada para la internacionalización del proyecto. Este proyecto solo cuenta con traducciones del español al inglés
+Una carpeta **courses** que corresponderá a la app de cursos:
+- **admin.py**: Fichero donde registramos y personalizamos nuestros modelos para que aparezcan en el admin de Django.
+- **models.py**: Fichero donde creamos nuestro modelo de cursos.
+- **urls.py**: Fichero donde definimos y conectamos nuestras urls de cursos.
+- **views.py**: Fichero donde creamos nuestras vistas de cursos.
+- **translation.py**: Fichero donde traducimos nuestro modelo para que en el admin aparezca un campo en español y otro en ingles para que sea traducible.
 
-**create_data.py**: Antiguo fichero para crear modelos de forma automatizada. Servia para testear solamente.
+Una carpeta **images** con capturas del proyecto para mostrar una vista previa del mismo en este README
+
+Una carpeta **locale** que será la encargada de internacionalizar el proyecto gracias a las traducciones hechas con Django Rosetta
+
+Una carpeta **media** que servirá para que desde el admin podamos seleccionar que archivos pdf queremos descargar en las vistas de cursos y también para poner portadas a cursos y blogs
+
+Una carpeta **static** con varias herramientas de django instaladas como django debug toolbar, ckeditor para mejorar el textarea base de Django...
+
 **manage.py**: Fichero que recoge las funcionalidades y manejo de django.
+
 **requirements.txt**: Fichero que recoge los requerimientos que hacen falta para que el proyecto funcione adecuadamente. Se deberán instalar en un nuevo entorno virtual
 
 
 ## 🚀 Funcionalidades y uso
 
 - **Registro**: La página cuenta con un formulario para registrar usuarios que quedarán guardados en la base de datos. Es muy importante registrarse para
-  poder utilizar todas las funcionalidades del proyecto, ya que el proyecto tiene vistas protegidas y funciones protegidas.
+  poder utilizar al 100% la página, ya que se requiere un usuario para ver la vista Cursos.
   
-- **Iniciar sesión**: Podrás logearte con tu usuario
-  
-- **Agregar autores/libros/editoriales**: Si estás logeado con un usuario, puedes crear nuevos autores, libros o editoriales con la información que tu       
-  quieras. El proyecto de base ya cuenta con algunos autores, libros y editoriales a modo de ejemplo
+- **Iniciar sesión**: Podrás logearte con tu usuario registrado previamente.
 
-- **Editar/Borrar autores/libros/editoriales**: Si estás logeado, también puedes editar y borrar los autores, libros o editoriales existentes. **¡OJO!** los
-  modelos también cuentan con protección y solo podrán ser editables o borrables si eres **CREADOR** de esos modelos. Si no eres creador, te redireccionará a   una página que te dirá que no tienes permiso para llevar a cabo dichas acciones.
-
-- **Posibilidad de contacto**: El proyecto cuenta con un formulario de contacto el cual está conectado a mi correo, por lo cual se puede contactar conmigo       también de esta manera
-
-- **Barra de busqueda**: El proyecto cuenta con una barra de busqueda para buscar autores, libros y editoriales.
+- **Posibilidad de contacto**: El proyecto cuenta con un formulario de contacto el cual está conectado a mi correo, por lo cual se puede contactar conmigo también de esta manera
 
 - **Internacionalización**: El proyecto cuenta con traducción al inglés. Solo debemos utilizar el desplegable para llevar a cabo el cambio. Están traducidas
   todas las vistas del proyecto y todos los modelos, así como su información.
 
-- **Vistas protegidas**: Los usuarios que no estén logeados no podrán realizar funciones como crear, editar o borrar datos. Si lo intentan se les         
-  redireccionará al login
+- **Vistas protegidas**: Los usuarios que no estén logeados no podrán consultar los cursos.
 
-- **Uso del admin**: Si te registras, puedes utilizar el admin de django con ese usuario poniendo /admin en el enlace
-
-- **Procesadores de contexto**: En el proyecto existen mensajes para brindar contexto al usuario. Mensajes de información y de éxito.
+- **Uso del admin**: Si te registras, puedes utilizar el admin de django con ese usuario poniendo /admin en el enlace y crear nuevos cursos y noticias con CKEDITOR
 
 - **Errores en formularios**: Los formularios cuentan con mensajes de apoyo para cuando el usuario introduce mal algún dato. También existen campos 
   obligatorios que deberán rellenarse si o si
-
-- **Contador**: Existe un contador de cuantos libros, autores y editoriales hay registrados en la página. Al añadir un nuevo modelo se incrementa y al borrar
-  disminuye
 
 
 ## 🛠️ Instalación y Ejecución
