@@ -27,10 +27,6 @@ class HomeView(TemplateView):
         # Añadir un mensaje de éxito
         messages.info(request, _('¡Bienvenido a la página! En esta página podrás consultar nuestros Libros, Editoriales y Autores.'))
 
-        # También puedes usar otros tipos de mensajes como:
-        # messages.error(request, 'Ocurrió un error.')
-        # messages.warning(request, 'Cuidado con este aviso.')
-        # messages.info(request, 'Aquí tienes una información importante.')
 
         return super().get(request, *args, **kwargs)
 
@@ -113,8 +109,8 @@ class LoginView(FormView):
 
 class RegistroView(CreateView):
     form_class = RegistroForm
-    template_name = 'general/registro.html'  # Asegúrate de que esta plantilla exista
-    success_url = reverse_lazy('login')  # Cambia esto por tu URL de éxito
+    template_name = 'general/registro.html'
+    success_url = reverse_lazy('login')
 
     def form_valid(self, form):
         messages.success(self.request, _("Registro exitoso."))
