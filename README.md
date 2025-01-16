@@ -32,7 +32,7 @@ Si tienes alguna duda o quieres utilizar algún recurso de este repositorio, por
 
 En la siguiente tabla encontrarás todos los proyectos realizados con dicha tecnología
 
-## Proyectos
+##  🛠🖊️ Proyectos
 
 | Proyecto                            | Descripcion                                                                                                                                                                        | Link al repositorio para más detalles                                                                              |      
 |-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------| 
