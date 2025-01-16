@@ -42,4 +42,3 @@ En la siguiente tabla encontrarás todos los proyectos realizados con dicha tecn
 | Proyecto Instagram     | Clon de Instagram con un monton de funcionalidades, como dar o quitar like, seguir o dejar de seguir usuarios, vistas protegidas... | [Repositorio de Instagram](https://github.com/kaeedev/Instagram)
 
 
-https://github.com/kaeedev/Instagram
