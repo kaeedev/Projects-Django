@@ -1,10 +1,6 @@
 
 # 🐍🐍 Todos mis proyectos en Django 🛠️🛠️
 
-## ESP:
-
-# 🐍 Proyectos en Django 🛠️
-
 En este repositorio encontrarás mis proyectos con el framework de Python, Django hasta la fecha. Poco a poco iré creando más.
 
 ## 🎯 Objetivo del Repositorio
